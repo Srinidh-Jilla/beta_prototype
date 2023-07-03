@@ -120,7 +120,7 @@ with st.sidebar.expander("Input Candidate Data"):
 
 # Step 4: Input threshold value
 with st.sidebar.expander("Input threshold for establishing connections"):
-    threshold = st.number_input("Set Threshold", min_value=0.0, max_value=1.0, value=0.90, step=0.1, key="threshold")
+    threshold = st.number_input("Set Threshold", min_value=0.0, max_value=1.0, value=0.95, step=0.01, key="threshold")
 
 with st.sidebar.expander("Compare Candidates"):
     candidates_to_compare = st.multiselect("Select candidates to compare", [i for i in range(num_candidates)], key="candidates_to_compare")
