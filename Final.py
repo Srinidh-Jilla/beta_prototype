@@ -24,7 +24,7 @@ def cosine_similarity(a, b):
 def generate_nodes(n, competencies):
     nodes = []
     for i in range(n):
-        node = {competency: random.randint(2, 10) for competency in competencies}
+        node = {competency: random.randint(0, 10) for competency in competencies}
         nodes.append(node)
     return nodes
 
