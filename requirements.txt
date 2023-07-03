@@ -4,6 +4,5 @@ networkx
 matplotlib
 numpy
 altair
-base64
 statistics
 copy
