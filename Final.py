@@ -8,6 +8,7 @@ import altair as alt
 import base64
 from statistics import mean
 import copy
+import scipy
 
 # Streamlit configuration
 st.set_page_config(
