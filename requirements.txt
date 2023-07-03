@@ -3,7 +3,6 @@ pandas
 networkx
 matplotlib
 numpy
-random
 altair
 base64
 statistics
